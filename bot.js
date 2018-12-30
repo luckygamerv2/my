@@ -161,6 +161,7 @@ client.on("message", async message => {
             برودكاست عادي : i!{prefix}bc
             معلومات عن السيرفر : i!{prefix}server
             برودكاست للأونلاين فقط : i!{prefix}bco
+            يعرض لك عدد المتبندين من سيرفرك : i!{prefix}banned
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
